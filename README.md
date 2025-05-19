@@ -7,4 +7,4 @@ The physical robot is built from a frame of wooden dowels and 3d printed parts.
 <img src="https://github.com/user-attachments/assets/d6b28023-d424-4709-94c3-72246693a95c" width="300" />
 
 # Software plans
-The robot will be controlled via a Xiao controller board. An old linux converted PC will act as the server calculating the path for the robot utilizing either camera or gps data.
+The robot will be controlled via a Xiao with a ESP32-c3 microprocessor. I have started working on a state machine in rust using the type state pattern to ensure safety for the embed software. An old linux converted PC will act as the server calculating the path for the robot utilizing either camera or gps data.
